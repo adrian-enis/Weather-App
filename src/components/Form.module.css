@@ -14,12 +14,13 @@
     font-size: 1.8rem;
     font-weight: 400;
     border-radius: 1rem;
-    color: var(--white);
-    
 }
 
+.form option:first-child {
+    color: var(--white);
+}
 
-.form, label, ::placeholder {
+ label, ::placeholder {
     color: var(--white);
 }
 
