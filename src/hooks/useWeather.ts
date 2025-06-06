@@ -3,7 +3,7 @@
 
 
 export default function useWeather() {
-    const fetchWeather = () => {
+    const fetchWeather: () => void = () => {
       console.log("Consultando...")
     }
   return (
